@@ -20,6 +20,7 @@ async function startServer() {
                 id: ID!
                 title: String!
                 completed: Boolean
+                user: User
             }
             type Query {
                 getTodos: [Todo]
